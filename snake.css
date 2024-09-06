@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-image: url('img.avif'); 
+     background-size: cover; 
+    background-position: center; 
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#gameContainer {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#game {
+    border: 5px solid #4CAF50; 
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#bestScoreContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    color: #333;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#bestScoreLabel {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#bestScore {
+    font-size: 24px;
+    color: #4CAF50; 
+}
+
+#scoreText {
+    font-size: 80px;
+    color: #3e9441; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#resetBtn {
+    font-size: 20px;
+    width: 120px;
+    height: 60px;
+    border: 3px solid #4CAF50; 
+    border-radius: 10px;
+    background-color: #83c386; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#resetBtn:hover {
+    background-color: #4CAF50; 
+    transform: scale(1.05);
+}
+
+#resetBtn:active {
+    transform: scale(0.95);
+}
